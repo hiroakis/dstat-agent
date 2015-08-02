@@ -24,7 +24,7 @@ apt-get install dstat
 go get github.com/hiroakis/dstat-agent
 ```
 
-or clone this repository and build you own.
+or clone this repository and build by yourself.
 
 ## How to use
 
