@@ -44,9 +44,19 @@ You can get dstat values as json from remote.
 curl SERVER:8888
 ```
 
-* demo
+* image
 
 ![](dstat-agent.png?raw=true)
+
+## Docker
+
+If you would like to see demo quickly, you can also use docker. Just type following command after clone this repository.
+
+```
+docker build -t hiroakis/dstat-agent .
+docker run -p 8888:8888 hiroakis/dstat-agent
+curl http://localhost:8888
+```
 
 ## License
 
